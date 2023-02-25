@@ -1,0 +1,333 @@
+.road_map {
+  text-align: center;
+}
+.road_map > h2 {
+  font-size: 65px;
+  line-height: 65px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-family: "Comfortaa";
+  margin-top: 4rem;
+}
+.road_map > p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-family: "Poppins";
+  color: #000f3b99;
+}
+.road_map > p > span {
+  margin: 0 1.6rem;
+}
+.road_map > p > span > i {
+  font-size: 1rem;
+  color: #000f3b99;
+}
+
+/* // css product  */
+.product_container {
+  margin: 0 13%;
+}
+.next_back_category {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+}
+.next_back_category > button {
+  border: none;
+  background-color: transparent;
+  font-size: 2.4rem;
+  color: #000f3b99;
+}
+.next_back_category i {
+  font-size: 2.4rem;
+  color: #000f3b99;
+}
+
+/* main product  */
+.product_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product_main__image {
+  width: 46%;
+  position: relative;
+}
+.product_main__image > button {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.product_main__content {
+  width: 46%;
+}
+.product_main__content > h1 {
+  font-size: 3.5rem;
+  color: #000f3b;
+  font-family: "Comfortaa";
+  font-weight: 400;
+}
+.product_main__content > h3 {
+  display: inline;
+  font-size: 3rem;
+  color: #0058e7;
+  padding-top: 1rem;
+  border-top: 1px solid #dfcece;
+  font-family: "Comfortaa";
+  font-weight: 400;
+}
+.product_main__content > h4 {
+  font-size: 1.6rem;
+  letter-spacing: 0.05px;
+  text-align: justify;
+  color: #8b97aa;
+  font-family: "Roboto";
+  font-weight: 500;
+  margin: 3.4rem 0 2.2rem 0;
+}
+.product_main__content_handler {
+  align-items: center;
+  display: flex;
+}
+.product_main__content_handler > div {
+  margin-right: 1rem;
+}
+.product_main__content_handler > div > button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.4rem;
+  color: #8b97aa;
+  cursor: pointer;
+}
+.product_main__content_handler > div > input {
+  width: 7rem;
+  padding: 1.2rem 0 1.2rem 2.8rem;
+  border-color: #f3f5f9;
+  border-radius: 3rem;
+  font-size: 1.4rem;
+  color: #8b97aa;
+}
+.product_main__content_handler > button {
+  background-color: #0058e7;
+  padding: 1.8rem 4rem;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 4rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  cursor: pointer;
+}
+.product_main__content_handler > button:hover {
+  background-color: #0e4aaa;
+}
+.product_main__content > p {
+  font-size: 1.5rem;
+  color: #8b97aa;
+  font-family: "Poppins";
+  padding-top: 1.6rem;
+}
+.product_main__content > p > span {
+  font-size: 1.5rem;
+  color: #8b97aa;
+  opacity: 0.8;
+  font-family: "Poppins";
+}
+.product_main__content > ul {
+  border-top: 1px solid #e8e6e6;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 2.6rem 0 0 0;
+}
+.product_main__content > ul > li:first-child {
+  padding: 0 1.2rem 0 0;
+  font-size: 1.5rem;
+  color: #8b97aa;
+}
+.product_main__content > ul > li {
+  padding: 0 1rem;
+  color: #8b97aa;
+}
+
+/* // css phần description  */
+.product__configuration {
+  margin: 7rem 10.6% 0 10.6%;
+}
+.product__configuration__toggle {
+  border-bottom: 1px solid #e7e8e9;
+}
+.product__configuration__toggle > button {
+  background-color: transparent;
+  font-weight: bold;
+  color: #444444;
+  font-size: 1.3rem;
+  padding: 1.4rem 3rem;
+  font-family: "Poppins";
+  border: none;
+  cursor: pointer;
+}
+.product__configuration__toggle > .active {
+  border-bottom: 3px solid #0058e7;
+  color: #0058e7;
+}
+
+.product__configuration__desc > p {
+  color: #000f3b;
+  font-size: 1.8rem;
+  font-family: "Poppins";
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-align: justify;
+}
+.product__configuration__desc > ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.product__configuration__desc > ul > li {
+  width: 26%;
+  cursor: pointer;
+}
+.product__configuration__desc > ul > li > img {
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+}
+.product__configuration__desc > ul > li > img:hover {
+  transform: scale(1.05);
+  transition: transform 0.4s linear;
+}
+
+.product__configuration__desc > h5 {
+  color: #000f3b;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-family: "Comfortaa";
+  text-align: center;
+  margin: 0;
+}
+
+.product__configuration__desc > table {
+  display: table;
+  width: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 5px;
+  justify-content: center;
+}
+.product__configuration__desc > table > tbody {
+}
+.product__configuration__desc > table > tbody > tr {
+  margin: auto;
+}
+.product__configuration__desc > table > tbody > tr > td {
+  border-left: 1px solid #eae8e8;
+  border-bottom: 1px solid #eae8e8;
+  text-align: center;
+}
+.product__configuration__desc > table > tbody > tr > td:first-child {
+  border-left: none;
+}
+.product__configuration__desc > table > tbody > tr > td > h6 {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+  color: #8b97aa;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+.product__configuration__desc > table > tbody > tr > td > h5 {
+  font-size: 1.8rem;
+  font-family: "Poppins";
+  color: #000f3b;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+/* related products  */
+.related_product {
+  margin: 11rem 13% 6rem 13%;
+}
+.related_product > p {
+  font-size: 2.1rem;
+  color: #000f3b;
+  font-family: "Comfortaa";
+}
+.related_product > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* RESPONSIVE  */
+@media screen and (max-width: 1023px) {
+  .product_container {
+    margin: 0 2%;
+  }
+
+  .product__configuration {
+    margin: 7rem 4% 0 4%;
+  }
+  .product__configuration__desc > p {
+    font-size: 1.4rem;
+  }
+  .product__configuration__desc > ul {
+    justify-content: space-evenly;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .road_map > h2 {
+    font-size: 30px;
+  }
+  .product_main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product_main__image {
+    width: 90%;
+    height: 300px;
+  }
+  .product_main__image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .product_main__content {
+    width: 90%;
+  }
+  .product__configuration__desc > h5 {
+    font-size: 2.4rem;
+  }
+  .product__configuration__desc > table > tbody > tr > td > h6 {
+    font-size: 1rem;
+  }
+  .product__configuration__desc > table > tbody > tr > td > h5 {
+    font-size: 1.4rem;
+  }
+  .related_product > div {
+    /* display: block; */
+    /* flex-direction: column; */
+  }
+  .related_product > div > * {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+}

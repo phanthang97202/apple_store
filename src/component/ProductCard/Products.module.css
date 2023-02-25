@@ -1,0 +1,28 @@
+.title {
+  font-size: 5.7rem;
+  text-align: center;
+  color: #000f3b;
+  font-family: "Comfortaa";
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 8.2%;
+  /* margin: 0 6.6%; */
+}
+/* RESPONSIVE  */
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
+}

@@ -1,0 +1,211 @@
+.container {
+  margin: 0 10.5% 5rem 10.5%;
+}
+
+.carts {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #e6e2e2;
+  margin: 7rem 0 0 0;
+}
+.carts > thead > tr > th {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  font-family: "Poppins";
+  color: #444444;
+  border-bottom: 1px solid #e6e2e2;
+}
+.carts > tbody > td > image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.carts > tbody > tr > td {
+  border-bottom: 1px solid #e6e2e2;
+}
+.carts > tbody > tr:last-child > td {
+  border: none;
+}
+.carts > tbody > tr > td:nth-child(2) > * {
+  font-size: 1.4rem;
+  font-family: "Poppins";
+  color: #0058e7;
+  font-weight: bold;
+}
+.carts > tbody > tr > td:nth-child(3) > * {
+  font-size: 1.5rem;
+  font-family: "Poppins";
+  color: #8b97aa;
+}
+.carts > tbody > tr > td > del {
+  padding-right: 1rem;
+}
+.carts > tbody > tr > td > u {
+  font-weight: bold;
+}
+.update_quantity {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.carts > tbody > tr > td:nth-child(4) > input {
+  /* border-radius: 2rem; */
+  font-family: "Poppins";
+  width: 5rem;
+  height: 4rem;
+  text-align: center;
+  border: 1px solid #eaeaea;
+}
+
+.carts > tbody > tr > td:nth-child(4) > input:focus {
+  outline: none;
+}
+.carts > tbody > tr > td:nth-child(5) {
+  font-size: 1.5rem;
+  font-family: "Poppins";
+  color: #8b97aa;
+}
+.button_update_quantity {
+  margin: 1.4rem 0;
+  margin-left: 1rem;
+  /* margin-right: 4.7rem; */
+  /* display: none; */
+  float: right;
+  cursor: pointer;
+  color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-width: 0px;
+  border-radius: 30px;
+  padding: 18px 40px 18px 40px;
+  background-color: rgb(0, 88, 231);
+}
+.carts > tbody > tr > td:nth-child(6) > button {
+  background-color: #0058e7;
+  border: none;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  color: #fff;
+  cursor: pointer;
+}
+.carts > tbody > tr > td:nth-child(6) > button:hover {
+  background-color: #5983c7;
+  transition: all 0.5s ease-in-out;
+  animation: vibrate 0.3s ease-in-out;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: rotate(18deg);
+  }
+  50% {
+    transform: rotate(-18deg);
+  }
+  75% {
+    transform: rotate(18deg);
+  }
+  100% {
+    transform: rotate(-18deg);
+  }
+}
+
+/* // check out 
+ */
+
+.checkout {
+  display: flex;
+  justify-content: space-between;
+}
+.checkout > div {
+  width: 50%;
+}
+
+.total_monney {
+  width: 50%;
+}
+.total_monney > p {
+  font-size: 2.1rem;
+  color: #000f3b;
+  font-family: "Comfortaa";
+}
+.total_monney > div {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d8cfcf;
+  border-radius: 0.4rem;
+  margin: 0rem 0 2rem 0;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+.total_monney > div > h4 {
+  font-size: 1.5rem;
+  font-family: "Poppins";
+}
+.total_monney > div > p {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #8b97aa;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.total_monney > button {
+  cursor: pointer;
+  color: #fff;
+  /* font-family: "Roboto" !important; */
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-width: 0px;
+  border-radius: 30px;
+  width: 100%;
+  padding: 20px 40px 20px 40px;
+  background-color: rgb(0, 88, 231);
+}
+
+.empty_cart {
+  /* display: block; */
+  text-align: center;
+  margin-top: 5rem;
+  background-image: url("https://themes.muffingroup.com/be/computershop/wp-content/themes/betheme/images/stripes/stripes_5_b.png");
+  background-repeat: repeat;
+}
+.empty_cart > h2 {
+  font-size: 4rem;
+  font-family: "Comfortaa";
+  color: #8b97aa;
+}
+.empty_cart > .return {
+  cursor: pointer;
+  color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-width: 0px;
+  border-radius: 30px;
+  padding: 18px 40px 18px 40px;
+  background-color: rgb(0, 88, 231);
+}
+.empty_cart > .return > i {
+  padding-right: 1rem;
+}
+
+/* RESPONSIVE  */
+
+@media screen and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 767px) {
+  .total_monney > div {
+    display: block;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+}

@@ -1,0 +1,203 @@
+.form_about {
+  width: 100%;
+  background-color: #8ccbe1;
+  margin: 10rem 0;
+}
+
+.form_about__col {
+  margin: 0 2%;
+  padding-top: 40px;
+  /* padding-bottom: 70px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.form_about__left {
+  width: 46%;
+}
+
+.form_about__left > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.form_about__col .form_about__right {
+  width: 46%;
+}
+
+.form_about__right p {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 25px;
+  margin: 0px 0px 15px;
+}
+
+.form_about__right p i {
+  color: #000f3b;
+  padding-right: 0.4rem;
+}
+
+.form_about__right h2 {
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Comfortaa";
+  font-size: 57px;
+  line-height: 67px;
+  margin: 0px 0px 15px;
+}
+
+.form_about__right h2 strong {
+  color: #000f3b;
+  font-weight: 500;
+}
+
+.form_about__right .list_item {
+  margin: 0 1% 20px;
+  width: 98%;
+  list-style: none;
+  padding: 15px 0 0 0;
+}
+
+.form_about__right .list_item li {
+  line-height: 27px;
+  font-size: 15px;
+  font-family: "Poppins";
+  color: #fff;
+  margin: 0 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.list_item li img {
+  padding-right: 20px;
+}
+
+.form_about__right > button {
+  border: 0;
+  background-color: #0058e7;
+  border-radius: 30px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 12px;
+  padding: 20px 40px;
+  margin-top: 20px;
+}
+.form_about__right > button > i {
+  padding-left: 1.6rem;
+}
+
+.form_about__right > button span {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+  .form_about__left > img {
+    width: 582px;
+  }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1240px) {
+  .form_about__col {
+    max-width: 100%;
+  }
+  .form_about__left > img {
+    width: 461px;
+  }
+  .form_about__right h2 {
+    font-size: 50px;
+  }
+  .form_about__right > button {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 950px) {
+  .form_about__col {
+    margin: 0 10%;
+    display: block;
+  }
+  .form_about__right {
+    margin-top: 3rem;
+  }
+
+  .form_about__left {
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .form_about__left > img {
+    width: 100%;
+  }
+  .form_about__col .form_about__right {
+    padding: 0px;
+    width: 100%;
+  }
+  .form_about__right h2 {
+    font-size: 50px;
+  }
+
+  .form_about__right .list_item li {
+    font-size: 15px;
+  }
+
+  .form_about__right > button {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .form_about__col {
+    margin: 0 10%;
+    display: block;
+  }
+  .form_about__left {
+    width: inherit;
+  }
+  .form_about__left > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .form_about__col .avt {
+    margin-bottom: 40px;
+    width: 480px;
+    height: 596px;
+  }
+  .form_about__right {
+    margin-top: 1rem;
+  }
+
+  .form_about__col .form_about__right {
+    width: 100%;
+  }
+
+  .form_about__right h2 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .form_about__right .list_item li {
+    font-size: 14px;
+  }
+  .form_about__right > button {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .form_about__right .list_item li {
+    font-size: 12px;
+  }
+  .form_about__right > button {
+    margin-bottom: 20px;
+  }
+}

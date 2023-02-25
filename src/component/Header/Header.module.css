@@ -1,0 +1,231 @@
+.container_nav {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+
+  position: sticky;
+  top: 0;
+  z-index: 101;
+}
+.container_nav__logo {
+  padding-left: 20px;
+}
+.navbar {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #fff;
+}
+
+/* phần điều hướng bên trái  */
+.navbar_menu {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.navbar_menu > li {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0 2rem;
+}
+
+.navbar_menu__link {
+  color: #000f3b !important;
+}
+.navbar_menu__link:hover {
+  color: #1150ee !important;
+}
+
+/* phần điều hướng bên phải  */
+
+.navbar_user {
+  display: flex;
+  align-items: center;
+}
+.navbar_user > li {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+.buttonSearch {
+  background-color: transparent;
+  border: none;
+  font-size: 1.8rem;
+  color: #117b7b;
+}
+.buttonSearch:hover {
+  color: #646c6c;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.box_search {
+  display: flex;
+  background-color: #f1f2f2;
+  border-radius: 20px;
+}
+.inputSearch {
+  border: none !important;
+  background-color: transparent;
+  font-size: 1.4rem !important;
+  font-family: "Poppins";
+  /* width: 50% !important; */
+}
+
+.navbar_user__iconcart {
+  position: relative;
+}
+.navbar_user__iconcart > i {
+  font-size: 2rem;
+}
+.navbar_user__iconcart > span {
+  position: absolute;
+  top: -8px;
+  left: 14px;
+  background-color: #1150ee;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 2px;
+}
+.navbar_menu__account {
+  display: flex;
+  align-items: center;
+  /* background-color: #f1f2f2; */
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+}
+.navbar_menu__account > p {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  font-weight: 510;
+  margin: 0;
+  padding-right: 6px;
+}
+.navbar_menu__account > i {
+  font-size: 2rem;
+}
+
+.buttonMenu {
+  font-size: 2rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+  padding-right: 20px;
+}
+
+.closeMenu {
+  font-size: 2rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+.responsiveMenu {
+  display: none;
+}
+/* // responsive header  */
+
+@media screen and (max-width: 1200px) {
+  .navbar_menu > li {
+    padding: 0 1.4rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .box_search {
+    width: 50%;
+  }
+  .responsiveMenu {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+  }
+  .navbar_menu__account {
+    padding-left: 40px;
+  }
+  .hideCart,
+  .hideAccount {
+    display: none;
+  }
+  .closeMenu {
+    display: block;
+  }
+  .container_nav {
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+    right: 0;
+    position: sticky;
+  }
+  .navbar {
+    width: inherit;
+  }
+  .navbar_menu {
+    position: fixed;
+    display: block;
+    background-color: #117b7b;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+    display: none;
+  }
+  .activeMenu {
+    display: block;
+    /* transform: translateX(0); */
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .navbar_menu::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(226, 234, 234, 0.4);
+    z-index: -2;
+  }
+  .navbar_user {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+  .navbar_menu > li {
+    padding: 10px 0 10px 10px;
+  }
+
+  .buttonMenu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .box_search {
+    width: 80%;
+  }
+  .navbar_menu {
+    width: 50%;
+  }
+}

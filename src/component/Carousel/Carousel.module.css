@@ -1,0 +1,14 @@
+.container {
+  margin: 12rem 0 2rem 0;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.title {
+  font-size: 57px;
+  line-height: 67px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-align: center;
+  font-family: "Comfortaa";
+  margin-bottom: 5rem;
+}

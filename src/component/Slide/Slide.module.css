@@ -1,0 +1,36 @@
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+.container_banner {
+  margin-top: 20px;
+}
+
+.button_slide {
+  text-align: center;
+}
+.button_slide > button {
+  border-radius: 50%;
+  width: 5.5rem;
+  height: 5.5rem;
+  border: none;
+  color: #2825de;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.button_slide > button:first-child {
+  background-color: #eef1f4;
+}
+.button_slide > button:last-child {
+  background-color: #fff9f9;
+}
+.button_slide > button:first-child:hover,
+.button_slide > button:last-child:hover {
+  background-color: #0058e7;
+  transition: all 0.3s ease-in-out;
+  color: #fff9f9;
+}

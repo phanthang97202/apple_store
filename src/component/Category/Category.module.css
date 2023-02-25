@@ -1,0 +1,32 @@
+.container_category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-family: "Comfortaa";
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 6.6rem 0;
+}
+
+/* RESPONSIVE  */
+@media screen and (max-width: 1400px) {
+  .container_category {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .container_category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
+}

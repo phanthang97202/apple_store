@@ -1,0 +1,8 @@
+.notFound {
+  display: block;
+  text-align: center;
+}
+.fail_search {
+  font-size: 6rem;
+  font-family: "Comfortaa";
+}

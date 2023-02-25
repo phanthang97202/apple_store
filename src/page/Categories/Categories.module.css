@@ -1,0 +1,144 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 7rem 10.5% 7rem 10.5%;
+}
+.products_container {
+}
+.products_filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("https://themes.muffingroup.com/be/computershop/wp-content/themes/betheme/images/stripes/stripes_5_b.png");
+  background-repeat: repeat;
+  padding: 1rem 0;
+}
+.products_filter__result {
+}
+.products_filter__result > p {
+  font-size: 1.5rem;
+  font-family: "Poppins";
+  color: #a8a8a8;
+}
+
+.select {
+  color: #626262;
+  background-color: #fff;
+  padding: 1rem;
+  border-color: #ebebeb;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  font-family: "Poppins";
+}
+.select:focus {
+  outline: none;
+}
+.products_container {
+  width: 78%;
+}
+
+.all_products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* phần chức năng tùy chọn lọc  */
+.filter_handler {
+  width: 20%;
+  background-color: #fcfcfc;
+  border-left: 1px solid #fcfcfc;
+}
+.filter_handler > h4 {
+  font-size: 1.8rem;
+  color: #000f3b;
+  font-family: "Comfortaa";
+  font-weight: 400;
+}
+.filter_handler > p {
+  font-size: 1.5rem;
+  color: #8b97aa;
+  font-family: "Poppins";
+}
+.filter_handler > h3 {
+  font-size: 1.8rem;
+  color: #000f3b;
+  font-family: "Comfortaa";
+  font-weight: 400;
+  margin-top: 8.5rem;
+}
+.filter_handler > ul {
+  list-style-type: square;
+  background-color: #0058e7;
+  font-size: 1.5rem;
+  font-family: "Poppins";
+}
+.filter_handler > ul > li {
+  color: #fff;
+  padding: 0.6rem 0;
+}
+.filter_handler > ul > li > * {
+  color: #fff;
+}
+.filter_handler > ul > li > *:hover {
+  text-decoration: underline;
+}
+.filter_handler > input {
+  cursor: e-resize;
+  width: 100%;
+}
+.filter_handler > div {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.filter_handler > div > button {
+  cursor: pointer;
+  color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-width: 0px;
+  border-radius: 30px;
+  padding: 20px 40px 20px 40px;
+  background-color: rgb(0, 88, 231);
+  margin-right: 2rem;
+}
+.filter_handler > div > p {
+  font-size: 1.3rem;
+  font-family: "Poppins";
+  color: #0058e7;
+}
+.notFound {
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+.notFound > * {
+  text-align: center;
+}
+
+/* RESPONSIVE  */
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .products_container {
+    width: 100%;
+  }
+  .filter_handler {
+    width: 100%;
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
+}

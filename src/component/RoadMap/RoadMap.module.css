@@ -1,0 +1,33 @@
+.road_map {
+  text-align: center;
+}
+.road_map > h2 {
+  font-size: 65px;
+  line-height: 65px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-family: "Comfortaa";
+  margin-top: 4rem;
+}
+.road_map > p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-family: "Poppins";
+  color: #000f3b99;
+}
+.road_map > p > span {
+  margin: 0 1.6rem;
+}
+.road_map > p > span > i {
+  font-size: 1rem;
+  color: #000f3b99;
+}
+
+@media screen and (max-width: 767px) {
+  .road_map > h2 {
+    font-size: 30px;
+  }
+}

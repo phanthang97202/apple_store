@@ -1,0 +1,63 @@
+.product {
+  position: relative;
+  width: 21.5%;
+  border: 1px solid #dbdfe4;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.product_percent {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ebc989;
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: "Comfortaa";
+  font-weight: bold;
+}
+.product_image img {
+  width: 100%;
+}
+
+.product_name {
+  font-family: "Comfortaa";
+  font-size: 2.1rem;
+  color: #000f3b;
+}
+.product_price {
+  font-size: 1.8rem;
+}
+.product_price > del {
+  color: #0058e7;
+  opacity: 0.8;
+  padding-right: 0.6rem;
+}
+.product_price > u {
+  color: #0058e7;
+  font-weight: bolder;
+}
+.product_price > span {
+  color: #0058e7;
+}
+
+/* RESPONSIVE  */
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1023px) {
+  .product {
+    width: 46%;
+    margin: 5px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
+}
