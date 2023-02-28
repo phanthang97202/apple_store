@@ -6,4 +6,4 @@
 
 ### npm start
 
-### wating and use
+### wait and use
